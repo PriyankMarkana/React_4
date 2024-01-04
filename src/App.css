@@ -1,0 +1,464 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+}
+.top_info{
+  padding: 10px 0px;
+  background-color: #003366;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex .icon{
+  font-size: 18px;
+  margin-right: 6px;
+}
+.left_info{
+  margin-right: 14px;
+}
+.right_info{
+  font-size: 18px;
+  margin: auto 0px;
+  margin-left: 40px;
+}
+.right_info i{
+  margin-right: 8px;
+}
+
+
+/* ----------------nav start---------------- */
+.nav{
+  width: 100%;
+  background-color: white;
+}
+.logo{
+  width: 225px;
+  padding: 5px 0px;
+}
+.Main_menu{
+  display: flex;
+  list-style-type: none;
+}
+.Main_menu li{
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0px 10px;
+  margin: auto 0px;
+}
+.Main_menu li i{
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+}
+
+/* ----------------------img start----------- */
+.Img{
+  height: 494px;
+  margin-bottom: 48px;
+}
+
+/* ------course start-------- */
+.title{
+  padding: 50px 0px;
+  text-align: center;
+}
+.title h1{
+  font-size: 32px;
+  font-weight: 700;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+.title span{
+  width:18px;
+  height: 2px;
+  background-color:rgb(255, 188, 6);
+  margin: auto 0px;
+  font-size: 15px;
+  margin-right: 7px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid .grid_box{
+  border-radius: 15px;
+  border: 0.5px solid rgb(223, 215, 215);
+  margin: 15px;
+}
+.grid_box .img img{
+    border-radius: 15px 15px 0px 0px;
+}
+.grid_box .nm{
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 15px;
+}
+.grid_box hr{
+  background-color:rgb(235, 229, 229);
+}
+.icons{  
+  margin: auto 0px;
+}
+.icons i{
+  color:rgb(255, 188, 6);
+}
+.grid_box .d-flex{
+  padding: 15px;
+}
+.grid_box .d-flex input{
+  padding: 7px 15px;
+  background-color: #003366;
+  color: white;
+  border-radius: 3px;
+}
+.course .view{
+  padding: 14px 30px;
+  width: fit-content;
+  background-color:rgb(255, 188, 6) ;
+  border-radius: 4px;
+  color: white;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 30px 0px;
+}
+.course .view i{
+  position: relative;
+  top: 4px;
+  left: 2px;
+}
+
+/* --------start about------- */
+.about{
+  padding: 70px 0px;
+}
+.aboutflex{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.aboutflex span{
+  width:18px;
+  height: 2px;
+  background-color:rgb(255, 188, 6);
+  margin: auto 0px;
+  font-size: 15px;
+  margin-right: 7px;
+}
+.about h3{
+  margin-bottom: 16px;
+  /* letter-spacing: 1px; */
+}
+.about .info{
+  color: rgb(136, 136, 136);
+  font-weight: 500;
+  margin-bottom: 16px;
+  padding-right: 50px;
+}
+.about .view{
+  padding: 14px 30px;
+  width: fit-content;
+  background-color:rgb(255, 188, 6);
+  border-radius: 4px;
+  color: white;
+}
+.about .view i{
+  position: relative;
+  top: 4px;
+  left: 2px;
+}
+.about .d-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.about .left_side{
+  background-color: white;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right:60px;
+  position: relative;
+  width: 63%;
+  height: 430px;
+  top: -25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 300px 300px 0px;
+}
+.right_side img{
+  height: 350px;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+/* ----happpy student-----  */
+
+.student{
+  width: 100%;
+  height: 220px;
+  background-image:url('image/counter_bg.jpg');
+  background-position: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: -2;
+}
+.student::after{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  background-color: #003366;
+  opacity: 0.7;
+}
+.std_box{
+  width: 255px;
+  position: relative;
+  transform: translateY(29px);
+}
+.std_box .icon{
+  position: relative;
+  top: 15px;
+  left: -6px;
+}
+.std_box i{
+    font-size: 60px;
+}
+.std_box p{
+  text-align: center;
+  font-size: 14px;
+}
+
+/* --------slider start------ */
+.slider{
+  padding: 50px 0px;
+}
+.slider .left .flex{
+  margin-right: 60px;
+  justify-content: flex-start;
+}
+.left{
+  padding-top: 50px;
+  width: 500px;
+} 
+.left .d-flex{
+  margin-top: 30px;
+}
+.left .d-flex input{
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 14px;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 7px;
+}
+.left .text{
+  text-align: justify;
+  font-size: 16px;
+  color: #888888;
+}
+.left .circle img{
+  height: 80px;
+  border-radius: 50%;
+}
+.left span{
+  width:18px;
+  height: 2px;
+  background-color:rgb(255, 188, 6);
+  margin: auto 0px;
+  font-size: 15px;
+  margin-right: 7px;
+}
+.left h1{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: start;
+}
+.left .flex1{
+  display: flex;
+  margin-top: 20px;
+}
+.left .flex1 h4{
+  margin-left: 15px;
+  margin-top:15px;
+}
+.left .content .d-flex{
+  margin-top: 5px;
+  margin-left: 13px;
+  font-style: italic;
+}
+.left i{
+  font-size: 90px;
+  color: rgba(0,0,0,0.08);
+  text-align: start;
+}
+.right{
+  position: relative;
+}
+.right  img{
+  height: 488px;
+}
+.right .cav{
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+/* ----why choose creative -----------*/
+
+.choose{
+  background-color: rgb(247, 247, 247);
+  padding: 25px 0px;
+}
+.choose .grid_box{
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  border: none;
+}
+.choose .grid_box h2{
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.choose .grid_box p{
+  color: rgba(0,0,0,0.5);
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.choose .grid_box img{
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/*----- placement start---- */
+.placement{
+  padding-bottom: 50px;
+}
+.placement .flex2 img{
+  height: 90px;
+  border: 1px solid rgb(234, 229, 229);
+  margin-right: 16px;
+  padding: 0px 5px;
+}
+.placement .flex2{
+  margin-top: 15px;
+  margin-bottom:60px;
+  display:flex ;
+  justify-content: center;
+}
+.placement .title{
+  padding-top:50px;
+  padding-bottom: 30px;
+}
+.placement h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.placement .grid{
+  display: flex;
+  font-size: 14px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.placement .grid p{
+  border: 1px solid rgb(210, 209, 209);
+  padding: 2px;
+  margin-right: 7px;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+/* ---------footer start ------*/
+footer{
+  background-color: #003366;
+  color: white;
+}
+.footer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: start;
+  padding: 100px 0px;
+}
+.first{
+  width: 380px;
+  padding: 0px 15px;
+}
+.first img{
+  height: 72px;
+}
+.first p{
+  text-align: justify;
+  font-size: 15px;
+  margin: 20px 0px;
+}
+.first h3{
+  font-weight: 600;
+  color: rgb(255, 188, 6);
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.first .flex{
+  justify-content: start;
+} 
+.first .flex i{
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2px 4px;
+  margin-right: 4px;
+}
+.second{
+  margin-left: 20px;
+  width: 255px;
+}
+.second >p,.third >p{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.second .content i,.third .content i{
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+}
+.second .content p,.third .content p{
+  padding-bottom: 10px;
+}
+.third{
+  padding: 0px 15px;
+  width: 445px;
+}
+.third .add{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.third .flex{
+  justify-content: start;
+  position: relative;
+  top: -20px;
+}
+.footer_bottom{
+  padding: 30px 30px;
+  background-color:  rgb(7, 32, 68);
+  color: white;
+}
+/* ---------footer end ------*/
